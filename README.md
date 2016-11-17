@@ -4,7 +4,8 @@
 This repository tries to implement the only relevant text editor; a text editor
 of many names.  One calls it *The Ultimate Editor*, *The Only Useful Editor* or
 modestly *The Editor*.  It has also be named *The Can't-Go-Back Editor*, *The
-There-Is-No-Going-Back Editor*, or the *Ratchet Editor*.
+There-Is-No-Going-Back Editor*, or the
+*[Ratchet](https://en.wikipedia.org/wiki/Ratchet_(device)) Editor*.
 
 # This is an editor where you can't go back. 
 
