@@ -4,6 +4,8 @@
 import sys
 
 
+# I integrally copied this function from this Stack Overflow answer:
+# http://stackoverflow.com/a/21659588/4614641
 def _find_getch():
     try:
         import termios
@@ -26,8 +28,10 @@ def _find_getch():
 
     return _getch
 
-ESC = '\x1b'
 
+# The key characters are taken from magmax's python-readchar:
+# https://github.com/magmax/python-readchar
+ESC = '\x1b'
 USELESS_KEYS = {
     'up'            : '\x1b\x5b\x41',
     'down'          : '\x1b\x5b\x42',
@@ -68,31 +72,6 @@ USELESS_KEYS = {
 }
 
 OTHER_KEYS = ['[A', '[B', '[D', '[C', 'OH', 'OF', '[6~', '[5~', '[3~', '[2~']
-
-#ESCAPE_SEQUENCES = [
-#    ESC,
-#    ESC + '\x5b',
-#    ESC + '\x5b' + '\x31',
-#    ESC + '\x5b' + '\x32',
-#    ESC + '\x5b' + '\x33',
-#    ESC + '\x5b' + '\x35',
-#    ESC + '\x5b' + '\x36',
-#    ESC + '\x5b' + '\x31' + '\x35',
-#    ESC + '\x5b' + '\x31' + '\x36',
-#    ESC + '\x5b' + '\x31' + '\x37',
-#    ESC + '\x5b' + '\x31' + '\x38',
-#    ESC + '\x5b' + '\x31' + '\x39',
-#    ESC + '\x5b' + '\x32' + '\x30',
-#    ESC + '\x5b' + '\x32' + '\x31',
-#    ESC + '\x5b' + '\x32' + '\x32',
-#    ESC + '\x5b' + '\x32' + '\x33',
-#    ESC + '\x5b' + '\x32' + '\x34',
-#    ESC + '\x4f',
-#    ESC + ESC,
-#    ESC + ESC + '\x5b',
-#    ESC + ESC + '\x5b' + '\x32',
-#    ESC + ESC + '\x5b' + '\x33',
-#]
 
 getch = _find_getch()
 

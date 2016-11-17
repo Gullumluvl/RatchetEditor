@@ -16,8 +16,23 @@ miserably fail.
 
 DO NOT INSTALL. This is not ready yet.
 
-There is a python implementation, with and without the `curses` library, and a
-C++ attempt with `ncurses`.
+## Python Implementation
+
+With and without the `curses` library.
+
+## C++ attempt with `ncurses`.
+
+Compile with:
+
+    g++ TheEditor.cpp -o TheEditor -lncurses
+
+
+# CREDITS
+
+For the python parts, I copied portions of code from:
+
+* This [stackoverflow question](http://stackoverflow.com/a/21659588/4614641)
+* Magmax's [python-readchar](https://github.com/magmax/python-readchar) module
 
 # LICENCE
 
