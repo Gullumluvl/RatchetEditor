@@ -29,6 +29,8 @@ Compile with:
 
     g++ TheEditor.cpp -o TheEditor -lncurses
 
+This is my first ever C++ program (that works)! There is no doubt it could be
+better written.
 
 # CREDITS
 
