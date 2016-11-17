@@ -13,7 +13,7 @@ int main ()
 	char* lineno_str = new char[4];
 	int c;
 	initscr();			/* Start curses mode 		  */
-	printw("This is the SINGLE USEFUL EDITOR. ");
+	printw("This is the ONLY USEFUL EDITOR. ");
 	printw("When you're here, you can't go back\n");
 	refresh();			/* Print it on to the real screen */
 	keypad(stdscr, TRUE);
