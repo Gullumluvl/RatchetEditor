@@ -15,7 +15,9 @@ other desperate attempts at Escape will miserably fail.
 
 # Currently
 
-DO NOT INSTALL. This is not ready yet.
+DO NOT INSTALL. This is not ready yet. Although this is still experimental,
+there is no big risk using it in your console, these versions may lack features
+but work.
 
 ## Python Implementation
 
