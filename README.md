@@ -9,9 +9,9 @@ There-Is-No-Going-Back Editor*, or the
 
 # This is an editor where you can't go back. 
 
-Each typed letter is engraved forever. As each letter is typed, the cursor moves
-forward. Backspaces, arrows and other desperate attempts at Escape will
-miserably fail.
+Each typed letter is engraved forever. As each letter is typed, the cursor
+moves forward, as does the inexorable wheel of time. Backspaces, arrows and
+other desperate attempts at Escape will miserably fail.
 
 # Currently
 
